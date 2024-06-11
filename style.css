@@ -1,0 +1,82 @@
+body
+{
+    background-color:#415a77 ;
+}
+#heading
+{
+    color:yellow;
+    text-align: center;
+}
+#area
+{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#game
+{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.2vmin;
+    
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17vmin;
+    width:17vmin;
+    background-color:#eae2b7;
+    border-radius: 2rem;
+    border-color: none;
+    font-size: 8vmin;
+    color: red;
+    box-shadow: none;
+    border:none;
+
+}
+.reset-button {
+    background-color: #ff6347; /* Tomato color */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.reset-button:active {
+    transform: scale(0.95);
+}
+.new-button {
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.new-button:active {
+    transform: scale(0.95);
+}
+#result
+{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
